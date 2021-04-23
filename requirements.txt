@@ -1,3 +1,5 @@
-numpy
-scipy
+tensorflow
+tensorflow-addons
 tqdm
+pysoundfile
+scipy
