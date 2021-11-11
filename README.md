@@ -11,19 +11,21 @@ export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 News
 ----
 
+New journal paper:
+
+ * On Training Targets for Deep Learning Approaches to Clean Speech Magnitude Spectrum Estimation [[link]](https://asa.scitation.org/doi/10.1121/10.0004823) [[.pdf]](https://github.com/anicolson/DeepXi/blob/master/docs/3273_1.pdf)
+
 New trained model:
  * A trained MHANet is available in the `model` directory.
 
 New journal paper:
- * [Masked Multi-Head Self-Attention for Causal Speech Enhancement](https://www.sciencedirect.com/science/article/pii/S0167639320302806)
+ * Masked Multi-Head Self-Attention for Causal Speech Enhancement [[link]](https://www.sciencedirect.com/science/article/pii/S0167639320302806) [[.pdf]](https://github.com/anicolson/DeepXi/blob/master/docs/1-s2.0-S0167639320302806-main.pdf)
 
 New journal paper:
- * [Spectral distortion level resulting in a just-noticeable difference between an *a priori* signal-to-noise ratio estimate and its instantaneous case](https://doi.org/10.1121/10.0002113)
-
-New preprint (under review):
-
- * [On Training Targets for Deep Learning Approaches to Clean Speech Magnitude Spectrum Estimation](https://www.techrxiv.org/articles/preprint/On_Training_Targets_for_Deep_Learning_Approaches_to_Clean_Speech_Magnitude_Spectrum_Estimation/13012760/2)
- * The code for this study can be found at: [https://github.com/anicolson/tgt_20](https://github.com/anicolson/tgt_20).
+ * Spectral distortion level resulting in a just-noticeable difference between an *a priori* signal-to-noise ratio estimate and its instantaneous case [[link]](https://doi.org/10.1121/10.0002113) [[.pdf]](https://github.com/anicolson/DeepXi/blob/master/docs/10.0002113.pdf)
+ 
+ New conference paper:
+ * Temporal Convolutional Network with Frequency Dimension Adaptive Attention for Speech Enhancement (INTERSPEECH 2021)[[link]](https://www.isca-speech.org/archive/pdfs/interspeech_2021/zhang21b_interspeech.pdf)
 
 Contents
 ----
@@ -167,6 +169,8 @@ To install:
 3. `source ~/venv/DeepXi/bin/activate`
 4. `cd DeepXi`
 5. `pip install -r requirements.txt`
+
+Otherwise, a **docker image** can be found on Docker Hub: https://hub.docker.com/r/fhoerst/deepxi
 
 How to use Deep Xi
 -----
